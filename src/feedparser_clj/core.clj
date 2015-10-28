@@ -114,9 +114,9 @@
   ([feedsource content-type]
    (parse-internal (new XmlReader feedsource content-type))))
 
-(defn -main "Show basic information for a feed, given a URL"
-  [feedsource]
-  (println "Using feed:" feedsource)
-  (let [myfeed (parse-feed feedsource)]
-    (println "Found" (count (:entries myfeed)) "entries")
-    (println myfeed)))
+;; (defn -main "Show basic information for a feed, given a URL"
+;;   [feedsource]
+;;   (println "Using feed:" feedsource)
+;;   (let [myfeed (parse-feed feedsource)]
+;;     (println "Found" (count (:entries myfeed)) "entries")
+;;     (println myfeed)))
