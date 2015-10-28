@@ -1,3 +1,5 @@
 /lib/
 /feedparser-clj-0.3.jar
 /pom.xml
+/target
+.lein-failures
